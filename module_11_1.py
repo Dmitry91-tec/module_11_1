@@ -25,9 +25,10 @@ import numpy as np                        # содержит многомерн�
 # print(my_series)
 # my_series2 = pd.Series(([5, 6, 7, 8, 9, 10]), index=['a', 'b', 'c', 'd', 'e', 'f'])
 # print(my_series2)
+print(pd.read_csv('test.csv', delimiter=','))
 
 #numpy
-a = np.array([[1, 2, 3],[4, 5, 6]])            #input
-print(a.shape)                                 #размеры массива, его форма
-print(a.ndim)                                  #число измерений
-print(a.size)                                  #кол-во элементов массива
+# a = np.array([[1, 2, 3],[4, 5, 6]])            #input
+# print(a.shape)                                 #размеры массива, его форма
+# print(a.ndim)                                  #число измерений
+# print(a.size)                                  #кол-во элементов массива
